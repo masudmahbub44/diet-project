@@ -54,6 +54,7 @@ h3 {
 .half-width {
     padding: 10px;
     font-style: italic;
+
 }
 
 .masud {
@@ -61,13 +62,13 @@ h3 {
 }
 
 .experience-item {
-    box-shadow: 10px 10px 40px black;
-    width: 30%;
-    margin-left: 5%;
+    box-shadow: 5px 5px 20px black;
+    width: 25%;
+    margin-left: 10%;
     margin-right: 5%;
     padding: 20px;
-    border-radius: 10px;
-    border-left: 7px solid blue;
+    border-radius: 15px;
+    border-left: 10px solid blue;
 }
 
 h2 {
@@ -75,7 +76,7 @@ h2 {
 }
 
 .experience-item {
-    background-image: url(background2.png);
+    background-image: url(background1.png)
 }
 
 #Recipie-title {
@@ -86,4 +87,26 @@ h2 {
 footer {
     text-align: center;
     color: chartreuse;
+
+}
+
+.recipies-area {
+    text-align: center;
+
+}
+
+.paragraph-item {
+    text-align: center;
+}
+
+.identify-option {
+    text-align: start;
+}
+
+.recipies-space {
+    text-align: center;
+}
+
+.text-space {
+    text-align: center;
 }
