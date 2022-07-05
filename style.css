@@ -17,6 +17,7 @@ h3 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -28,6 +29,7 @@ section {
 .top-banner {
     background-image: url(background1.png);
     background-repeat: no-repeat;
+
 
 }
 
@@ -42,4 +44,8 @@ section {
     padding: 5px 20px;
     border-radius: 5px;
     font-weight: 700px;
+}
+
+.ABOUT-ME {
+    background-image: url(background2.png);
 }
