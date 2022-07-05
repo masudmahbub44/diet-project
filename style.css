@@ -1,29 +1,38 @@
 body {
-    font-family: 'Rubik Moonrocks', cursive;
-    margin: 3px;
+    font-family: 'Rubik Moonrocks', cursive
 }
 
 h1 {
-    font-size: 50px;
+    font: 69px;
+    font-style: italic;
 }
 
-.Skip {
-    color: orange;
+.orange-color {
+    color: yellowgreen
 }
 
-h3 {
-    color: blue;
-}
-
-.flexible-container {
+section {
     display: flex;
-    margin-bottom: 100px;
 }
 
 .half-width {
     width: 50%;
-    padding: 30px 50px;
+    padding: 50px;
+}
 
+.half-width img {
+    image: 50%;
+}
+
+.link-button {
+
+    text-decoration: none;
+    background-color: blanchedalmond;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    font-weight: 700;
 
 }
 
@@ -31,82 +40,4 @@ h3 {
     background-image: url(background1.png);
     background-repeat: no-repeat;
 
-
-}
-
-.half-width img {
-    width: 60%;
-
-}
-
-.link-button {
-    text-decoration: none;
-    background-color: brown;
-    padding: 5px 20px;
-    border-radius: 5px;
-    font-weight: 700px;
-}
-
-.ABOUT-ME {
-    background-image: url(background2.png);
-}
-
-.half-width {
-    padding: 10px;
-    font-style: italic;
-
-}
-
-.masud {
-    font-style: italic;
-}
-
-.experience-item {
-    box-shadow: 5px 5px 20px black;
-    width: 25%;
-    margin-left: 10%;
-    margin-right: 5%;
-    padding: 20px;
-    border-radius: 15px;
-    border-left: 10px solid blue;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-.experience-item {
-    background-image: url(background1.png)
-}
-
-#Recipie-title {
-    border-color: black;
-
-}
-
-footer {
-    text-align: center;
-    color: chartreuse;
-
-}
-
-.recipies-area {
-    text-align: center;
-
-}
-
-.paragraph-item {
-    text-align: center;
-}
-
-.identify-option {
-    text-align: start;
-}
-
-.recipies-space {
-    text-align: center;
-}
-
-.text-space {
-    text-align: center;
 }
